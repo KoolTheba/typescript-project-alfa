@@ -70,11 +70,35 @@ TS will throw you errors in your terminal, but it eventually compiles your JS fi
 
 
 ## The real deal: the syntax for types
-> File used: `02-numbers.ts`
+These are the **basics** that you should start from when leaarning Typescript.
 
-Inference of types: your editor helps you when writing in TS files, as it highlights the possible errors
+Check in each file the examples, how TS tells you if something is wrong and read carefully the syntax.
 
-Explicit types: classic syntax
-```
+> Files used: `02-numbers.ts`, `03-booleans.ts`, `04-strings.ts`, `05-arrays.ts`
+
+The 2 ways of interacting with the TS syntax are:
+- Inference of types: your editor helps you when writing in TS files, as it highlights the possible errors
+- Explicit types: classic syntax
+
+```ts
 let productPrice: number = 100;
 ```
+
+For the (no) use of the TS type any: `06-any.ts`
+
+For union types, which gives flexibility: `07-union.ts`
+
+For alias and literal types: `08-alias.ts`
+
+For null and undefined types: `09-null.ts`
+
+For functions:
+  - `10-functions.ts`
+  - `11-return.ts`
+  - `12-objects.ts`
+
+For how to use modules: `/products/*.ts`
+
+For how to use external libraries: 
+  - with TS support: `13-external-libraries.ts`
+  - without TS support: `13-libs-not-supported.ts`
