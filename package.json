@@ -1,0 +1,22 @@
+{
+  "name": "typescript-project-alfa",
+  "version": "1.0.0",
+  "description": "Interesting stuff written with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoolTheba/typescript-project-alfa.git"
+  },
+  "author": "KoolTheba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KoolTheba/typescript-project-alfa/issues"
+  },
+  "homepage": "https://github.com/KoolTheba/typescript-project-alfa#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
