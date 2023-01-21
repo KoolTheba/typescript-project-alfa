@@ -1,4 +1,4 @@
-# typesript-project-alfa
+# typescript-project-alfa
 Interesting stuff when learning and using Typescript.
 
 One of the best approaches on development
@@ -70,4 +70,11 @@ TS will throw you errors in your terminal, but it eventually compiles your JS fi
 
 
 ## The real deal: the syntax for types
+> File used: `02-numbers.ts`
 
+Inference of types: your editor helps you when writing in TS files, as it highlights the possible errors
+
+Explicit types: classic syntax
+```
+let productPrice: number = 100;
+```
